@@ -3,7 +3,7 @@ import axios from 'axios';
 // import { json } from 'stream/consumers';
 
 const API_BASE_URL =
-  import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:3000';
+  import.meta.env.VITE_REACT_APP_API_URL || 'http://13.234.17.49:3000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
